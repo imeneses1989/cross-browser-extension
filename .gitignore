@@ -3,3 +3,5 @@ wasm/target
 wasm/pkg
 public/build
 public/*.js.map
+chrome-native-host-log.txt
+ninjaone_browserext_agent_proxy

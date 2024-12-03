@@ -1,0 +1,10 @@
+// Copy this file on your NativeMessagingHosts folder inside of the user profile directory. See: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_data_dir.md
+// Example: /Users/irinavaldes/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.ninjaone.browser.enduserextension.json
+{
+  "name": "com.ninjaone.browser.enduserextension",
+  "description": "My Application",
+  "path": "/Users/irinavaldes/Documents/NinjaOne/cross-browser-extension/ninjaone_browserext_agent_proxy", // Generate binary runing "go build ninjaone_browserext_agent_proxy.go" and copy the absolute path (pwd) on path key
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://bfjlaedphldanbdbmcejjejcjhgdmkba/"] // Update the Chrome extension id copying it from your browser extension chrome://extensions/  (ID)
+}
+
