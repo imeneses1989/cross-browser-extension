@@ -1,0 +1,30 @@
+{
+    "manage_extension": {
+      "message": "Administre la extension",
+      "description": "The nme of the link to go and manage the nina on extension."
+    },
+    "selected_options": {
+      "message": "Opciones seleccionadas",
+      "description": "The title for selected options in manage extension"
+    },
+    "click_me": {
+      "message": "Click me",
+      "description": ""
+    },
+    "can_not_click": {
+      "message": "No puedes hacer click",
+      "description": ""
+    },
+    "click_enabled": {
+      "message": "Puedes hacer click",
+      "description": "Click is enabled"
+    },
+    "randomize_els": {
+      "message": "Los elementos estan ramdom",
+      "description": ""
+    },
+    "Not_randomize_els": {
+      "message": "Los elementos no estan ramdom",
+      "description": ""
+    }
+  }

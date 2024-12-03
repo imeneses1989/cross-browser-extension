@@ -1,0 +1,56 @@
+TRACE: 2024/11/22 11:01:14 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/22 11:01:14 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/22 15:21:19 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/22 15:21:19 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/22 15:21:19 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/22 15:21:20 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/22 15:21:20 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/22 15:22:57 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/22 15:22:57 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/22 15:22:57 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/22 15:22:57 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/22 15:22:57 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/22 15:23:43 ninjaone_browserext_agent_proxy.go:166: Message size in bytes: 109
+TRACE: 2024/11/22 15:23:43 ninjaone_browserext_agent_proxy.go:203: Message received: {"key":"blackListedDomain","body":"https://ca.pinterest.com/","tabId":1748325431,"query":"blackListedDomain"}
+TRACE: 2024/11/25 13:44:39 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 13:44:39 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 13:44:39 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 13:47:51 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 13:47:51 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 13:56:59 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 13:56:59 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 13:56:59 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 13:57:00 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 13:57:00 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 13:57:08 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 13:57:08 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 13:57:08 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 13:57:08 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 13:57:08 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 14:05:37 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 14:05:37 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 14:05:37 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 14:05:37 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 14:05:37 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 15:04:18 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 15:04:18 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 15:04:18 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 15:04:18 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 15:04:18 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 15:08:12 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 15:08:12 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 15:08:12 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 15:08:12 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 15:08:12 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 15:11:02 ninjaone_browserext_agent_proxy.go:166: Message size in bytes: 1600
+TRACE: 2024/11/25 15:11:02 ninjaone_browserext_agent_proxy.go:203: Message received: {"key":"notAllowedExtension","body":{"description":"Build a personalized color palette, select colors from webpages with the eyedropper, create color scales, and blend colors","enabled":true,"homepageUrl":"https://chrome.google.com/webstore/detail/kpppomnoahmhnmmamjfbnnnmeabkjcni","hostPermissions":[],"icons":[{"size":16,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/16/0"},{"size":32,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/32/0"},{"size":36,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/36/0"},{"size":48,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/48/0"},{"size":64,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/64/0"},{"size":72,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/72/0"},{"size":96,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/96/0"},{"size":128,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/128/0"},{"size":144,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/144/0"},{"size":192,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/192/0"},{"size":512,"url":"chrome://extension-icon/kpppomnoahmhnmmamjfbnnnmeabkjcni/512/0"}],"id":"kpppomnoahmhnmmamjfbnnnmeabkjcni","installType":"normal","isApp":false,"mayDisable":true,"name":"Color Picker","offlineEnabled":true,"optionsUrl":"","permissions":["activeTab","contextMenus","scripting","storage"],"shortName":"Color Picker","type":"extension","updateUrl":"https://clients2.google.com/service/update2/crx","version":"2.0.3"},"query":"notAllowedExtension"}
+TRACE: 2024/11/25 15:11:02 ninjaone_browserext_agent_proxy.go:166: Message size in bytes: 59
+TRACE: 2024/11/25 15:11:02 ninjaone_browserext_agent_proxy.go:203: Message received: {"key":"externalUninstalled","query":"externalUninstalled"}
+TRACE: 2024/11/25 15:29:41 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 15:29:41 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 15:29:41 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
+TRACE: 2024/11/25 15:30:19 ninjaone_browserext_agent_proxy.go:79: Chrome native messaging host started. Native byte order: LittleEndian.
+TRACE: 2024/11/25 15:30:19 ninjaone_browserext_agent_proxy.go:156: IO buffer reader created with buffer size of 8192.
+TRACE: 2024/11/25 20:11:25 ninjaone_browserext_agent_proxy.go:185: Stdin closed.
+TRACE: 2024/11/25 20:11:25 ninjaone_browserext_agent_proxy.go:90: readFromStdIn finished first, exiting
+TRACE: 2024/11/25 20:11:25 ninjaone_browserext_agent_proxy.go:95: Chrome native messaging is exiting
