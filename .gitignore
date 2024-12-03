@@ -3,3 +3,4 @@ wasm/target
 wasm/pkg
 public/build
 public/*.js.map
+chrome-native-host-log.txt
