@@ -1346,6 +1346,7 @@ async function __wbg_init(input) {
 	return __wbg_finalize_init(instance, module);
 }
 
+// import { validateHeaderValue } from "http";
 browser.runtime.onInstalled.addListener(() => {
     console.log("Extension installed successfully!");
 });
@@ -1379,7 +1380,7 @@ console.log("Service Worker: Service Worker started", globalThis.name, new Date(
 const receiveMessageFromNativeHost = (message) => {
     console.log("Service Worker: Received message from Native Host: ", message, new Date());
 };
-const receiveMessageFromContentScript = (message, sender, sendResponse) => {
+const receiveMessageFromContentScript = (message, sender) => {
     const { key } = message;
     receiversFunctions[key](message, sender);
     console.log("service worker recived a message from content", message, sender);
@@ -1445,10 +1446,12 @@ const onUninstallExternal = (info) => {
     });
 };
 // Monitor functions
+// Note: Send mesage to content opening a new tab and asking user to iitiate the uninstall
+// If user doe snot initiate, IT gets a report with user or machine name to ask why
 const onExternalInstall = (info) => {
     console.log(info);
     const allowedExtensions = [];
-    const { name, hostPermissions, id } = info;
+    const { name, id } = info;
     if (name && isInList(name, allowedExtensions)) {
         sendMessageToNativeHost({
             key: "newPluginInstalled",
@@ -1472,4 +1475,3 @@ globalThis.port.onDisconnect.addListener(onDisconnectFromNativeHost);
 browser.runtime.onInstalled.addListener(onInstall);
 browser.management.onInstalled.addListener(onExternalInstall);
 browser.tabs.onUpdated.addListener(onTabUpdated);
-//# sourceMappingURL=background.js.map

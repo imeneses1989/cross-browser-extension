@@ -1284,7 +1284,7 @@
 	    // const events = ["click", "mouseover", "mouseout", "keydown", "keyup", "load"];
 	    const events = ["click", "contextmenu"];
 	    events.forEach(async (event) => {
-	        const { disableAllClicks, randomizeElements, } = await browser.storage.local.get({
+	        const { disableAllClicks, randomizeElements } = await browser.storage.local.get({
 	            disableAllClicks: false,
 	            randomizeElements: false,
 	        });
@@ -1312,7 +1312,12 @@
 	    warningAlert: showWarningAlert,
 	    blackListedDomain: showBlackListedDomain,
 	};
-	const receiveMessageFromServiceWorker = (request, sender, sendResponse) => {
+	// ***** Communication functions ******
+	// const sendMessageToServiceWorker = async (messageObject) => {
+	// 	const response = await browser.runtime.sendMessage(messageObject); //SendMessageResponseInterface
+	// 	return response;
+	// };
+	const receiveMessageFromServiceWorker = (request, sender) => {
 	    console.log("receiveMessageFromServiceWorker", request);
 	    const { key, description, body } = request; //ReceiveMessageRequestInterface
 	    const headMessage = sender.tab
@@ -1321,6 +1326,27 @@
 	    console.log(headMessage, description, body);
 	    receiversFunctions[key](body);
 	};
+	// todo review
+	// const receiveMessageFromWebPage = async (event) => {
+	// 	console.log(
+	// 		"Source: ",
+	// 		event.source,
+	// 		"datType:",
+	// 		event.data.type,
+	// 		"Event:",
+	// 		event,
+	// 	);
+	// 	// Validate that the message is coming from the right source
+	// 	if (event.source !== window || !event.data.type) return;
+	// 	// Send the message to the Service Worker
+	// 	sendMessageToServiceWorker({
+	// 		key: "",
+	// 		description: "receiveMessageFromWebPage: event",
+	// 		body: event.data,
+	// 		error: null,
+	// 	});
+	// 	console.log("Content Script: Received response from the Service Worker: ");
+	// };
 	// ***** Event listeners ******
 	browser.runtime.onMessage.addListener(receiveMessageFromServiceWorker);
 	// window.addEventListener("message", receiveMessageFromWebPage);
@@ -1330,4 +1356,3 @@
 	disableClicks();
 
 })();
-//# sourceMappingURL=content.js.map
